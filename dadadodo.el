@@ -55,7 +55,8 @@
   (setf files (directory-files dir t "^[^\.\#]"))
   (dadadodo-file
    (mapconcat 'shell-quote-argument
-              (dadadodo--list-shuffle (subseq files 0 (min 8 (length files)))) " ")))
+              (dadadodo--list-shuffle
+               (subseq files 0 (min 8 (length files)))) " ")))
 
 (defun dadadodo-dired-marked-files ()
   (interactive)
