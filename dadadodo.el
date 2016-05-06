@@ -13,6 +13,7 @@
 ;;; Commentary:
 
 ;; requires the dadadodo program <http://jwz.org/dadadodo>
+;; apt-get install dadadodo
 
 (require 'cl)
 
